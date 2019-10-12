@@ -11,10 +11,15 @@ Gdyby oddano **54** głosy więcej na PSL, to PSL miałby w o jeden mandat więc
 W wyborach parlamentarnych 2015, oddano niemal #400 tys. głosów nieważnych# i
 ponad #2,5 miliona# oddane na partie, które nie weszły do parlamentu.
 
+
+
 # Cel
 Niniejszy program ma na celu pokazanie, że każdy głos się liczy, w szczególności w wyborach, w których mandaty
 są przyznawane za pomocą metody d'Hondta.
 
+## Więcej
+
+Tu znajdują się pełne tabele: [tabele.md](tabele.md)
 
 ## Działanie
 
@@ -25,7 +30,7 @@ Program dhondt.py czyta plik (domyślnie) results2015.json i pokazuje:
 ```
 33	Kielce	16	468690
 	Last: PSL	22287.0	2
-	>>>>: KUK	22057.5	2
+	Lost: KUK	22057.5	2
 Decyduje: 459 głosów
 ```
 
@@ -38,9 +43,9 @@ Gdzie (dane odczytane z pliku json):
 
 Następnie pokazuje wyliczenia:
 
-- Last - jest to nazwa partii, która jako ostatnia otrzymała miejsce, wraz z "dzielnikiem" (22287) i liczbą otrzymanych mandatów (2)
-- Lost - jest to nazwa (innej) partii, na którą gdyby oddano więcej głosów to ona otrzymałaby ostatnie do obsadzenia miejsce w tym okręgu.
-- Decyduje 459 głosów -- liczba głosów, które zmieniłyby wynik wyborów w tym okręgu.
+- **Last** - jest to nazwa partii, która jako ostatnia otrzymała miejsce, wraz z "dzielnikiem" (22287) i liczbą otrzymanych mandatów (2)
+- **Lost** - jest to nazwa (innej) partii, na którą gdyby oddano więcej głosów to ona otrzymałaby ostatnie do obsadzenia miejsce w tym okręgu.
+- **Decyduje 459 głosów** -- liczba głosów, które zmieniłyby wynik wyborów w tym okręgu (Lost +1 mandat, Last -1 mandat).
 
 
 ## Output
