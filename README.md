@@ -1,8 +1,8 @@
 # Metoda d'Hondta w praktyce
 
 ## Każdy głos się liczy
-W wyborach parlamentarnych 2015, oddano niemal #400 tys. głosów nieważnych# i
-ponad #2,5 miliona# oddane na partie, które nie weszły do parlamentu.
+W wyborach parlamentarnych 2015, oddano niemal **400 tys. głosów nieważnych** i
+ponad **2,5 miliona** oddane na partie, które nie weszły do parlamentu.
 
 Niniejszy program ma na celu pokazanie, że każdy głos się liczy, w szczególności w wyborach, w których mandaty
 są przyznawane za pomocą metody d'Hondta.
