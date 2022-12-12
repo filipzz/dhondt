@@ -52,7 +52,7 @@ NIE | 1 | 1
 
 # Cel
 
-Program [dh.py](dh.py) czyta plik (domyślnie) results2019.json i pokazuje:
+Program [dhondt.py](dhondt.py) czyta plik (domyślnie) [results2019.json](results2019.json) i pokazuje:
 
 1. Dane dla każdego z okręgów wyborczych w postaci:
 

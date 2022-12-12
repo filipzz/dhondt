@@ -187,8 +187,8 @@ if __name__ == '__main__':
     switch = []
 
     # with open('results2015.json') as f:
-    #with open('results2019.json') as f:
-    with open('results2019-22.json') as f:
+    with open('results2019.json') as f:
+    #with open('results2019-22.json') as f:
         data = json.load(f)
 
     report = generate_report(data, parties)
