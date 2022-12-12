@@ -1,29 +1,58 @@
 # Metoda d'Hondta w praktyce
 
+## Każdy głos się liczy
+W wyborach parlamentarnych 2015, oddano niemal #400 tys. głosów nieważnych# i
+ponad #2,5 miliona# oddane na partie, które nie weszły do parlamentu.
 
+Niniejszy program ma na celu pokazanie, że każdy głos się liczy, w szczególności w wyborach, w których mandaty
+są przyznawane za pomocą metody d'Hondta.
+
+
+# 2015
 ## 54 głosy zmieniają wynik wyborów parlametarnych w 2015
 
 W okręgu **23 Rzeszów** oddano **507 257** głosów ważnych i **12 363** głosów nieważnych.
 Gdyby oddano **54** głosy więcej na PSL, to PSL miałby w o jeden mandat więcej (kosztem PIS).
 
+Tu znajdują się pełne tabele (2015): [tabele.md](tabele.md)
 
-## Każdy głos się liczy
-W wyborach parlamentarnych 2015, oddano niemal #400 tys. głosów nieważnych# i
-ponad #2,5 miliona# oddane na partie, które nie weszły do parlamentu.
+Poniżej: ile głosów więcej musiałaby dostać dana partia, aby zdobyć dodatkowy mandat w danym okręgu.
 
+okręg wyborczy | partia | liczba głosów
+:---: | :---: | ---:
+23	Rzeszów |	PSL	| 54
+6	Lublin  |	KUK |	955
+11	Sieradz	|PET	| 1408
+4	Bydgoszcz |	PO |	2077
+7	Chełm	| PSL	| 2092
+27	Bielsko0Biała	| PO |	2292
+
+
+# 2019
+## 682 głosy zmieniają wynik wyborów w 2019
+
+W okręgu **18 Siedlce** gdyby oddano o 682 głosy więcej na Konfederację (oddano tam 29 390 głosów na Konfederację)
+to mandat straciłby PIS.
+
+
+# Update 2022
+## Propozycja zmiany liczby głosów w okręgach
+
+Gdyby [wnioskowana](https://pkw.gov.pl/aktualnosci/informacje/wniosek-panstwowej-komisji-wyborczej-w-sprawie-zmiany-granic-okregow-wyborczych-i-liczby-poslow-w-ni) liczba mandatów per okrąg obowiązywała w 2019 roku, to wyniki wyborów byłyby następujące:
+
+x| 2019 | 2022
+:---:|---: | ---:
+KOB | 134 | 136
+KON | 11 | 11
+PSL | 30 | 29 
+PIS | 235 | 232
+LEW | 49 | 51
+NIE | 1 | 1
 
 
 # Cel
-Niniejszy program ma na celu pokazanie, że każdy głos się liczy, w szczególności w wyborach, w których mandaty
-są przyznawane za pomocą metody d'Hondta.
 
-## Więcej
-
-Tu znajdują się pełne tabele: [tabele.md](tabele.md)
-
-## Działanie
-
-Program dhondt.py czyta plik (domyślnie) results2015.json i pokazuje:
+Program [dh.py](dh.py) czyta plik (domyślnie) results2019.json i pokazuje:
 
 1. Dane dla każdego z okręgów wyborczych w postaci:
 
