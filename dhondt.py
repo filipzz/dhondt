@@ -214,7 +214,7 @@ if __name__ == '__main__':
 
 
     print("\nCo by było gdyby...")
-    print("\nokręg wyborczy\tpartia\tliczba głosów")
+    print("\nokrąg wyborczy\tpartia\tliczba głosów")
     for (margin, loser, okrNr, okrName) in nsmallest(noOfSwitches, switch):
         print("\n" + okrNr + "\t" + okrName + "\t" + loser + "\t" + str(ceil(margin)))
         totalSwaps = totalSwaps + ceil(margin)

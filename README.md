@@ -29,10 +29,18 @@ okręg wyborczy | partia | liczba głosów
 
 
 # 2019
-## 682 głosy zmieniają wynik wyborów w 2019
+## 139 głosów zmienia wynik wyborów w 2019
 
-W okręgu **18 Siedlce** gdyby oddano o 682 głosy więcej na Konfederację (oddano tam 29 390 głosów na Konfederację)
-to mandat straciłby PIS.
+W okręgu **14 Nowy Sącz** gdyby oddano o 139 głosów więcej na PIS to mandat straciłby PSL.
+
+nr |okrąg | różnica | \# nieważnych | ostatni | nie wszedł
+---: | :--- | ---: | ---: | ---: | ---:
+14	|Nowy Sącz	|139	|4 501	|PSL	|PIS
+40	|Koszalin	|613	|4 914	|PSL	|PIS
+36	|Kalisz	|660	|7 509	|LEW	|KON
+18	|Siedlce	|682	|5 846	|PIS	|KON
+7	|Chełm	|871	|5 342	|LEW	|PIS
+
 
 
 # Update 2022
@@ -297,7 +305,7 @@ PET	28
 
 
 Co by było gdyby...
-okręg wyborczy	partia	liczba głosów
+okrąg wyborczy	partia	liczba głosów
 23	Rzeszów	PSL	54
 6	Lublin	KUK	955
 11	Sieradz	PET	1408
